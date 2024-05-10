@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #781f30;
+    overflow-x: hidden;
+}
+.main
+{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+.div1{
+    height: 100%;
+    width: 50%;
+    padding: 50px 0px 0px 50px;
+}
+   
+.img{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+}
+.div2{
+    height: 93%;
+    width: 50%;
+    z-index: 99;
+    background-color: rgb(249, 206, 214);
+    margin: 50px 50px 0px 0px;
+}
+.div2 h1{
+    text-align: center;
+    color: rgb(145, 5, 10);
+    /* table-layout: initial; */
+    font-size: xx-large;
+    margin: 70px;
+}
+.container{
+    border: 1cm;
+    margin-left: 62px;
+    height: 19vh;
+}
+
+.conatiner2{
+
+    display: flex;
+    margin: -79px;
+    /* padding: 29px; */
+    padding: 47px;
+}
+.conatiner2 .box1{
+width: 50%;
+margin: 10px;
+color: rgb(145, 5, 10);
+text-align: center;
+}
+.conatiner2 .box2{
+    width: 31%;
+    margin-left: 2px;
+    margin-bottom: 20px;
+    margin-top: -9px;
+    color:  rgb(145, 5, 10);
+    text-align: center;
+    box-sizing: content-box 10vh;
+}
+ .buttonn{
+    background-color: rgb(245, 94, 99);
+    height: 44px;
+    width: 100px;
+}
+.butn{
+    padding: 1vh;
+    margin-left: 34vh;
+    margin-top: 15vh;
+}
+
+.input-css {
+    height: 30px;
+    border-style: hidden;
+    
+}
