@@ -1,0 +1,57 @@
+body{
+    background-image: url(./ScreenShot-2022-1-15_16-54-1.png);
+}
+.header 
+{
+    box-sizing: border-box;
+    background-color: rgb(110, 116, 116);
+    display: flex ;
+}
+.header a{
+   
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a:hover
+ {
+    background-color: #00fff7;
+    color: rgb(236, 67, 67);
+  }
+  
+
+.header a {
+ float: none;
+ display: block;
+ text-align: left;
+}
+.header-right{
+    margin-left: 20px;
+    display: flex;
+    margin-left: auto;
+}
+
+.bodyy {
+margin: 100px;
+background-color:cyan;
+}
+.bodyy h1{
+    color:#0f4c4a
+}
+.bodyy h2{
+    margin: 10px;
+    padding: 10px;
+}
+.bodyy h3{
+color: blue;
+background-color: orchid;
+}
+.nav a:hover{
+    background-color: #00fff7;
+    color: #0f4c4a;
+}
